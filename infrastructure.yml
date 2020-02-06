@@ -1,0 +1,6 @@
+Description: A sample template
+Resources:
+  ECR: #An inline comment
+    Type: "AWS::ECR::Repository"
+    Properties: 
+      RepositoryName: infrastructure-example
